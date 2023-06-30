@@ -1,6 +1,15 @@
-cek = '# CEK RESULT CRACK'
-	sol().print(mark(cek, style='green'))
-	kayes = '[01] Cek Hasil Cp\n[02] Cek Hasil Ok\n[00] Kembali Ke Menu'
-	kis = nel(kayes, style='cyan')
-	cetak(nel(kis, title='RESULTS'))
-	kz = input(x+'['+p+'f'+x+'] Pilih : ')
+import os, requests
+P = '\x1b[1;97m'
+xr = requests.get("http://ip-api.com/json/").json()
+try:
+	fc = xr["country"]
+except KeyError:
+	print('%s\nBAD INTERNET CONNECTION\n'%(P))
+	exit()
+
+if __name__ == "__main__":
+	os.system("git pull")
+	if "Indonesia" == fc:
+		__import__("brute").Main_()
+	else:
+		__import__("brute").Main_()

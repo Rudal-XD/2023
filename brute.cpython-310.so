@@ -1,2 +1,3 @@
 import os,system,requests
-os.system('clear')
+def main():
+input('lol:')

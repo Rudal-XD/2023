@@ -1,1 +1,2 @@
+import os,system,requests
 os.system('clear')

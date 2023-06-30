@@ -10,6 +10,6 @@ except KeyError:
 if __name__ == "__main__":
 	os.system("git pull")
 	if "Indonesia" == fc:
-		__import__("brute").main_()
+		__import__("brute").main()
 	else:
-		__import__("brute").main_()
+		__import__("brute").main()
